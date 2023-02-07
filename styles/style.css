@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Maven Pro', sans-serif;
+}
+body{
+    /* overflow: hidden; */
+}
+
+#container{
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    ;
+}
+
+#change-emoji{
+    height: 50%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+#change-emoji button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+}
+
+#change-emoji button:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
